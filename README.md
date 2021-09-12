@@ -1,2 +1,2 @@
 # Portfolio
-My personal portfolio coming soon.
+My personal portfolio.
