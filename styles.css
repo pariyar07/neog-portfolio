@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,700;1,800&family=Oswald:wght@600&family=Slabo+27px&family=Yanone+Kaffeesatz&display=swap');
 
 :root {
-  --primary-color: #6EE7B7;
+  --primary-color: #2563EB;
 }
 
 body {
@@ -46,9 +46,24 @@ hr {
   max-width: 140px;
   padding: 0.6rem 1.2rem;
   background-color: var(--primary-color);
-  color: black;
+  color: white;
   margin: 1rem auto;
   border-radius: 2rem;
+    font-size: 17px;
+    line-height: 17px;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: Georgia,
+    serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 50%, var(--primary-color) 100%);
+    box-shadow: var(--primary-color) 5px 5px 15px 5px;
+    border: 2px solid var(--primary-color);
+    display: inline-block;
 }
 
 .link-secondary {
@@ -57,7 +72,22 @@ hr {
   padding: 0.6rem 1.2rem;
   border-radius: 2rem;
   border: 1px solid black;
-  color: black;
+  color: var(--primary-color);
+  font-size: 17px;
+    line-height: 17px;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: Georgia,
+    serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, white 0%, white 50%, white 100%);
+    box-shadow: white 5px 5px 5px 5px;
+    border: 2px solid white;
+    display: inline-block;
 }
 
 
@@ -77,14 +107,13 @@ hr {
 
 .navigation {
   background-color: var(--primary-color);
-  color: #6EE7B7;
+  color: var(--primary-color);
   padding: 1rem;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
  .navigation .container{
-     background-color: 
-     #6EE7B7;
+     background-color: var(--primary-color);
  }
 .navigation .nav-brand {
   font-weight: bold;
@@ -101,7 +130,7 @@ hr {
 }
 
 .navigation .link {
-  color: black;
+  color: white;
 }
 
 .navigation .link-active {
@@ -147,8 +176,8 @@ hr {
 }
 
 .ow {
-  background-color: 
-  #6EE7B7;
+  background-color: var(--primary-color);
+  color: white;
 }
 
 /** footers **/
@@ -157,13 +186,13 @@ hr {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  color: black;
+  color: white;
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
 }
 
 .footer .link {
-  color: black;
+  color: white;
 }
 
 .footer .footer-header {
