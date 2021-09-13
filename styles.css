@@ -49,21 +49,6 @@ hr {
   color: white;
   margin: 1rem auto;
   border-radius: 2rem;
-    font-size: 17px;
-    line-height: 17px;
-    padding: 7px;
-    border-radius: 10px;
-    font-family: Georgia,
-    serif;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background-image: linear-gradient(to right, var(--primary-color) 0%, var(--primary-color) 50%, var(--primary-color) 100%);
-    box-shadow: var(--primary-color) 5px 5px 15px 5px;
-    border: 2px solid var(--primary-color);
-    display: inline-block;
 }
 
 .link-secondary {
@@ -71,23 +56,8 @@ hr {
   margin: 1rem;
   padding: 0.6rem 1.2rem;
   border-radius: 2rem;
-  border: 1px solid black;
-  color: var(--primary-color);
-  font-size: 17px;
-    line-height: 17px;
-    padding: 7px;
-    border-radius: 10px;
-    font-family: Georgia,
-    serif;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    background-image: linear-gradient(to right, white 0%, white 50%, white 100%);
-    box-shadow: white 5px 5px 5px 5px;
-    border: 2px solid white;
-    display: inline-block;
+  border: 1px solid;
+  color: white;
 }
 
 
