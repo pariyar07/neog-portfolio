@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,700;1,800&family=Oswald:wght@600&family=Slabo+27px&family=Yanone+Kaffeesatz&display=swap');
 
 :root {
-  --primary-color: #2563EB;
+  --primary-color: #f1c40f;
 }
 
 body {
@@ -130,8 +130,16 @@ hr {
   color: black;
 }
 
-.hero .hero-heading .heading-inverted {
+.hero {
   color: var(--primary-color);
+}
+
+.hero-heading{
+  color: black;
+}
+
+.heading-inverted{
+  color: white;
 }
 
 /** sections **/
