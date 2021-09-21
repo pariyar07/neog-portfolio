@@ -5,17 +5,17 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-family: 'Slabo 27px', serif;
-font-family: 'Yanone Kaffeesatz', sans-serif;
-font-size: xx-large;
-background-color: #E5E7EB;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: xx-large;
+  background-color: #a1a1a1;
 }
 
 hr {
   margin: 2rem 0rem;
-  
+
 }
 
 /** spaces **/
@@ -82,9 +82,11 @@ hr {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
- .navigation .container{
-     background-color: var(--primary-color);
- }
+
+.navigation .container {
+  background-color: var(--primary-color);
+}
+
 .navigation .nav-brand {
   font-weight: bold;
 }
@@ -153,7 +155,7 @@ hr {
 /** footers **/
 
 .footer {
-  background-color: var(--primary-color);
+  background-color: transparent;
   padding: 2rem 1rem;
   text-align: center;
   color: white;
@@ -181,6 +183,7 @@ hr {
   text-align: center;
   margin: 3rem auto;
 }
+
 .showcase-list h1 {
   margin: 0.5rem;
 }
@@ -215,16 +218,16 @@ hr {
   }
 }
 
-.football-logo{
-    max-width: 500px;
-    margin-top: 30px;
-    align-content: center;
-    border-radius: 20px;
+.football-logo {
+  max-width: 500px;
+  margin-top: 30px;
+  align-content: center;
+  border-radius: 20px;
 }
 
-.blog-photo{
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.blog-photo {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
